@@ -1,0 +1,15 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "fullstack app angular and nodejs and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "angular"
+  ],
+  "author": "Berezin Stepan",
+  "license": "ISC"
+}
