@@ -3,9 +3,9 @@ const controllers = require('../controllers/analytics')
 const router = express.Router()
 
 
-// localhost:5000/api/auth/login
-router.get('/login',controllers.login)
-// localhost:5000/api/auth/register
-router.get('/register', controllers.register)
+
+router.get('/overview',controllers.overview)
+
+router.get('/analytics', controllers.analytics)
 
 module.exports = router

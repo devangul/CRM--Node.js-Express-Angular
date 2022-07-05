@@ -3,9 +3,15 @@ const controllers = require('../controllers/category')
 const router = express.Router()
 
 
-// localhost:5000/api/auth/login
-router.get('/login',controllers.login)
-// localhost:5000/api/auth/register
-router.get('/register', controllers.register)
+
+router.get('/',controllers.getAll)
+
+router.get('/:id', controllers.getById)
+
+router.delete('/:id', controllers.remove)
+
+router.post('/', controllers.create)
+
+router.patch('/:id', controllers.update)
 
 module.exports = router
